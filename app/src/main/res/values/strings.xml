@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Beas Food</string>
+    <string name="next">Next</string>
+    <string name="enjoy_restaurant_like_food_at_home">Enjoy Restaurant like food at Home</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_signup_here">Don\'t have an account? Signup here</string>
+    <string name="deliver_your_favourite_food">Deliver your Favourite Food</string>
+    <string name="name">Name</string>
+    <string name="sign_up_here">Sign Up here</string>
+    <string name="already_have_an_account_sign_in">already have an account? Sign in</string>
+</resources>
