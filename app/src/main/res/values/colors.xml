@@ -6,5 +6,6 @@
     <color name="endColor">#15BE77</color>
     <color name="startColor">#53E88B</color>
     <color name="iconColor">#AFB42B</color>
+    <color name="transparent">#FFFFFF</color>
     <!--    <color name="iconColor" />-->
 </resources>

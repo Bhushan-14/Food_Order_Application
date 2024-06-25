@@ -18,4 +18,6 @@
     <string name="to_provide_you_with_the_best_dining_experience_we_need_your_permission_to_access_your_device_s_location_enabling_location_services_allows_us_to_offer_personalized_restaurant_recommendations_accurate_delivery_estimates_and_a_seamless_food_delivery_experience_please_enable_location_access_to_enhance_your_experience">To provide you with the best dining experience, we need your permission to access your device\'s location. Enabling location services allows us to offer personalized restaurant recommendations, accurate delivery estimates, and a seamless food delivery experience. Please enable location access to enhance your experience.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="proceed">Proceed</string>
 </resources>
