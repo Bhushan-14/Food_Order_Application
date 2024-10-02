@@ -44,4 +44,7 @@
     <string name="_1_pizza_dough_n2_tomato_sauce_n3_cheese">1. Pizza Dough \n2. Tomato Sauce \n3. Cheese</string>
     <string name="ingredients">Ingredients</string>
     <string name="pizza_is_a_delicious_versatile_dish_featuring_a_crisp_golden_crust_topped_with_a_rich_tomato_sauce_melted_cheese_and_an_array_of_savory_toppings_like_pepperoni_mushrooms_bell_peppers_and_olives_whether_enjoyed_as_a_quick_snack_or_a_full_meal_pizza_is_a_beloved_favorite_that_satisfies_cravings_with_every_bite">Pizza is a delicious, versatile dish featuring a crisp, golden crust topped with a rich tomato sauce, melted cheese, and an array of savory toppings like pepperoni, mushrooms, bell peppers, and olives. Whether enjoyed as a quick snack or a full meal, pizza is a beloved favorite that satisfies cravings with every bite</string>
+    <string name="food_at_your_door">Food At your Door</string>
+    <string name="received">Received</string>
+    <string name="default_web_client_id" />
 </resources>

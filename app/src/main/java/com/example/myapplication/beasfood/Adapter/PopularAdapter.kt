@@ -1,14 +1,19 @@
 package com.example.myapplication.beasfood.Adapter
 
+import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.beasfood.DetailsActivity
 import com.example.myapplication.beasfood.databinding.PopularItemBinding
 
 class PopularAdapter(
     private val items: List<String>,
     private val price: List<String>,
-    private val image: List<Int>
+    private val image: List<Int>,
+    private val requireContext: Context
 ) : RecyclerView.Adapter<PopularAdapter.PopularViewHolder>() {
 
     override fun onCreateViewHolder(
@@ -23,6 +28,13 @@ class PopularAdapter(
         val images = image[position]
         val price = price[position]
         holder.bind(item, price, images)
+
+        holder.itemView.setOnClickListener{
+            val intent = Intent(requireContext, DetailsActivity::class.java)
+            intent.putExtra("MenuItemName", item)
+            intent.putExtra("MenuItemImage", images)
+            holder.itemView.context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int {

@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="282dp"
         android:gravity="center_horizontal"
-        android:text="Food At your Door"
+        android:text="@string/food_at_your_door"
         android:textColor="@color/text_color"
         android:textSize="20sp"
         android:textAlignment="center"

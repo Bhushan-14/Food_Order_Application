@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:paddingStart="6dp"
     android:paddingEnd="6dp"
-    android:background="@color/white"
     tools:context=".Fragment.ProfileFragment">
 
     <LinearLayout
@@ -34,7 +34,7 @@
                 android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editTextName"
+                android:id="@+id/profileName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -43,7 +43,6 @@
                 android:ems="10"
                 android:hint="Enter your name"
                 android:inputType="text"
-                android:text="Admin"
                 android:textColor="@color/black" />
         </LinearLayout>
 
@@ -68,7 +67,7 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/editTextAddress"
+                android:id="@+id/profileAddress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -79,7 +78,6 @@
                 android:ems="10"
                 android:hint="@string/enter_your_address"
                 android:inputType="textMultiLine"
-                android:text="@string/_64_mayur_colony_dhule_maharashtra_424002"
                 android:textColor="@color/black" />
         </LinearLayout>
 
@@ -104,7 +102,7 @@
                 android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editTextEmail"
+                android:id="@+id/profileEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -113,7 +111,6 @@
                 android:ems="10"
                 android:hint="@string/enter_your_email"
                 android:inputType="textEmailAddress"
-                android:text="@string/xyz_gmail_com"
                 android:textColor="@color/black" />
         </LinearLayout>
 
@@ -138,7 +135,7 @@
                 android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editTextPhone"
+                android:id="@+id/profilePhone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
@@ -147,21 +144,23 @@
                 android:ems="10"
                 android:hint="@string/enter_your_phone_number"
                 android:inputType="phone"
-                android:text="8001006333"
                 android:textColor="@color/black" />
         </LinearLayout>
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
-        android:background="@drawable/proceedbutonshape"
-        android:elevation="5dp"
-        android:layout_marginBottom="32dp"
-        android:textColor="@color/text_color"
-        android:textAllCaps="false"
+        android:id="@+id/saveInforationButton"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_gravity="bottom"
         android:layout_marginEnd="8dp"
-        android:text="@string/save_information" />
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/proceedbutonshape"
+        android:elevation="5dp"
+        android:text="@string/save_information"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
 </FrameLayout>
